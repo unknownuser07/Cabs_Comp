@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabasisi</title>
+</head>
+<style>
+    body {
+        background-image: url("https://wallpaperaccess.com/full/1533500.jpg");
+        background-size:cover;
+    }
+
+    button {
+        width: 50px;
+        height: 50px;
+        margin-top: 20px;
+    }
+
+    p {
+        font-family: Times New Roman;
+        font-size: 30px;
+        color: white;
+        text-shadow: 5px 5px 10px black;
+        font-style:italic;
+    }
+
+    h1 {
+        color:rgb(255, 255, 255);
+        font-family: Times New Roman;
+        margin-top: 80px;
+        text-align: center;
+        text-shadow: 5px 5px 10px black;
+        font-style:italic;
+        font-size: 50px;
+    }
+
+    .block {
+        width: 100%;
+        height: 100%;
+        margin-top: 190px;
+    }
+
+</style>
+<body>
+    <p> <b> <h1> CALCULATOR </h1></b> </p>
+        <div class=block> </div>
+    <center>
+        <p> Enter 1st number: <input type="text" id="n1" value=""> </p>
+        <p> Enter 2nd number: <input type="text" id="n2" value=""> </p>
+        <p> Result: <input type="text" id="result" readonly="value"> </p>
+
+        <div class="button">
+        <button onclick="add()">+</button>
+        <button onclick="sub()">-</button>
+        <button onclick="mul()">*</button>
+        <button onclick="div()">/</button>
+        </div>
+    </center>
+
+    <script>
+    function add(num1, num2) {
+        var num1 = parseInt(document.getElementById("n1").value);
+        var num2 = parseInt(document.getElementById("n2").value);
+        document.getElementById("result").value = num1+num2;
+    }
+
+    function sub(num1, num2) {
+        var num1 = parseInt(document.getElementById("n1").value);
+        var num2 = parseInt(document.getElementById("n2").value);
+        document.getElementById("result").value = num1-num2;
+    }
+
+    function mul(num1, num2) {
+        var num1 = parseInt(document.getElementById("n1").value);
+        var num2 = parseInt(document.getElementById("n2").value);
+        document.getElementById("result").value = num1*num2;
+    }
+
+    function div(num1, num2) {
+        var num1 = parseInt(document.getElementById("n1").value);
+        var num2 = parseInt(document.getElementById("n2").value);
+        document.getElementById("result").value = num1/num2;
+    }
+</script>
+</body>
+</html>
