@@ -1,0 +1,50 @@
+body {
+    background-image: url("https://img.wallpapersafari.com/desktop/1680/1050/97/26/BnSyUq.png");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.section {
+    width: 33.33%;
+    float: left;
+    padding: 1px;
+    padding-top: 100px;
+}
+
+.adobo {
+    clip-path: circle();
+}
+
+.sinigang {
+    clip-path: circle();
+    float: right;
+}
+
+.kwek {
+    clip-path: circle();
+}
+
+.pattern::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.textz {
+    font-family: sans-serif;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}
+
+.texts {
+    font-family: sans-serif;
+    color: white;
+    font-size: 80px;
+    width: 33.33%;
+    float: left;
+    padding: 30px;
+    padding-left: 90px;
+}

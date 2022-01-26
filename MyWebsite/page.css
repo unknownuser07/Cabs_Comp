@@ -1,0 +1,54 @@
+.head {
+    background:#FFDFB2;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+.part {
+    width: 100%;
+    height: 660px;
+    position: relative;
+    top: 0px;
+    text-align: left;
+}
+  
+.navbar {
+    font-family: Felix Titling;
+    font-size: 35px;
+    margin-left: 100px;
+    display: inline-block;
+    padding-right: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p13 {
+    font-family: Felix Titling;
+    font-size: 35px;
+    margin-left: 100px;
+}
+
+p16 {
+    font-family: Felix Titling;
+    font-size: 35px;
+    padding-left: 80px;
+}
+
+.picture {
+    text-align: right;
+    position: fixed;
+    right: 120px;
+    bottom: 285px;
+}
+
+body {
+    background: #FFB587;
+}
